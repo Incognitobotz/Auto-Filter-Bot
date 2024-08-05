@@ -31,7 +31,7 @@ BOT_TOKEN = environ.get('BOT_TOKEN', '6516019123:AAFt08TgU_TotHbkRyVSsYXIbBRHSPr
 if len(BOT_TOKEN) == 0:
     print('Error - BOT_TOKEN is missing, exiting now')
     exit()
-PORT = int(environ.get('PORT', '80'))
+PORT = int(environ.get('PORT', '8080'))
 
 # Bot pics
 PICS = (environ.get('PICS', 'https://telegra.ph/file/6b7b9ad68790aa63df872.jpg https://telegra.ph/file/83626ff7c0b1404cc3385.jpg https://telegra.ph/file/44d058711183a8bc395bf.jpg https://telegra.ph/file/161cf6730dfe55aa398ca.jpg')).split()
